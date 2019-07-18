@@ -1,0 +1,13 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700,800&display=swap');
+@import 'colors';
+
+$primary-font: 'Open Sans', sans-serif;
+
+body{
+    font-family: $primary-font;
+    background-color: $white;
+    .hello{
+        color: $dark-gray;
+        user-select: none;
+    }
+}
