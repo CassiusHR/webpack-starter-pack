@@ -2,7 +2,6 @@ import _ from 'lodash';
 import { Header } from './js/header';
 import { Footer } from './ts/footer';
 import './scss/styles.scss';
-import webpackjpg from './assets/images/JacketsInfantil-01.jpg'
 
 function component (){
     const element = document.createElement('div');
@@ -26,5 +25,3 @@ let footer = new Footer();
 let footerText = footer.getFooterText();
 
 console.log(footerText);
-
-document.getElementById('webpack-jpg').setAttribute('src', webpackjpg);
